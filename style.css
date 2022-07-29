@@ -1,0 +1,44 @@
+body {
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.pink {
+    color: pink;
+}
+
+p {
+    text-align: center;
+}
+
+section {
+    display: flex;
+}
+
+.hwidth {
+    width: 50%;
+    padding: auto;
+}
+
+.hwidth image {
+    width: 100%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: orange;
+    padding: auto;
+    border-radius: 5px;
+    background-image: linear-gradient(pink, red);
+}
+
+.topbanner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
