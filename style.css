@@ -14,10 +14,13 @@ h1 {
 
 p {
     text-align: center;
+    margin: auto;
+    padding: 50px;
 }
 
 section {
     display: flex;
+    text-align: justify;
 }
 
 .hwidth {
