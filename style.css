@@ -19,13 +19,17 @@ p {
 }
 
 section {
-    display: flex;
-    text-align: justify;
+
+    height: 500px;
+    padding-bottom: 150px;
 }
 
 .hwidth {
     width: 50%;
-    padding: auto;
+    margin-top: 10px;
+    float: left margin: left;
+    padding left: 2%;
+
 }
 
 .hwidth image {
@@ -44,4 +48,33 @@ section {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+
+.orange {
+    color: crimson;
+}
+
+.experience {
+    box-shadow: 10px 10px 50px greenyellow;
+    margin-top: 200px;
+    margin-right: 10px;
+    width: 40%;
+    padding: 50px;
+}
+
+#fullstack {
+    border-left: 7px solid tomato;
+    border-right: 20px;
+}
+
+#babyweb {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue 100%, cyan 100%);
+    border-image-slice: 1;
+}
+
+.dreamarea {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
